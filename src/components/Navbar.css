@@ -1,0 +1,51 @@
+/* Estilo para el Header */
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    z-index: 1000;
+}
+
+/* Estilos generales del NavBar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/* Estilo para el logo */
+.navbar-logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces del NavBar */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Espaciado entre los enlaces */
+}
+
+.navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+/* Efecto hover para los enlaces */
+.navbar-links li a:hover {
+    color: #ddd;
+}
+
+/* Estilo para el enlace activo */
+.navbar-links li a.active {
+    color: #00bcd4;
+    font-weight: bold;
+    border-bottom: 2px solid #00bcd4;
+}
